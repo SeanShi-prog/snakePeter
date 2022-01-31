@@ -3,15 +3,6 @@
 #include "food.h"
 #include<windows.h>
 
-/* void gotoxy2(HANDLE hOut2, int x, int y)//其中x，y是与二维数组是相反的
-{
-	COORD pos;
-	pos.X = x;             //横坐标
-	pos.Y = y;            //纵坐标
-	SetConsoleCursorPosition(hOut2, pos);
-}//光标定位函数
-HANDLE hOut2 = GetStdHandle(STD_OUTPUT_HANDLE); */
-
 Snake::Snake(Wall &tempWall,Food &tempFood) : wall(tempWall),food(tempFood){//引用必须初始化
     pHead=NULL;
 }

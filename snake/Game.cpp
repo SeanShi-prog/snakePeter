@@ -7,15 +7,6 @@ using namespace std;
 #include<conio.h>
 #include<windows.h>
 
-/* void gotoxy(HANDLE hOut, int x, int y)//其中x，y是与二维数组是相反的
-{
-	COORD pos;
-	pos.X = x;             //横坐标
-	pos.Y = y;            //纵坐标
-	SetConsoleCursorPosition(hOut, pos);
-}//光标定位函数
-HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE); */
-
 int main()
 {
     //添加随机种子
